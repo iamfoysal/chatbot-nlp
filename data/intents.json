@@ -1,0 +1,114 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hello", "Hi", "Hey"],
+      "responses": ["Hi there!", "Hello!", "Hey! How can I help?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Goodbye", "See you", "Bye"],
+      "responses": ["Goodbye!", "See you later!", "Take care!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful"],
+      "responses": ["You're welcome!", "Anytime!", "Glad I could help!"]
+    },
+    {
+      "tag": "noanswer",
+      "patterns": [],
+      "responses": [
+        "Sorry, can't understand you",
+        "Please give me more info",
+        "Not sure I understand"
+      ]
+    },
+    {
+      "tag": "options",
+      "patterns": [
+        "How you could help me?",
+        "What you can do?",
+        "What help you provide?",
+        "How you can be helpful?",
+        "What support is offered"
+      ],
+      "responses": [
+        "I can guide you through Admissions, Academics, Student Affairs, and more",
+        "I can help you with Admissions, Academics, Student Affairs, and more"
+      ]
+    },
+    {
+      "tag": "admission",
+      "patterns": [
+        "How to apply for admission?",
+        "What is the admission process?",
+        "Admission procedure"
+      ],
+      "responses": [
+        "To apply for admission, visit our website",
+        "You can apply for admission on our website"
+      ]
+    },
+    {
+      "tag": "academics",
+      "patterns": [
+        "What courses are offered?",
+        "Tell me about the courses",
+        "What is the curriculum"
+      ],
+      "responses": [
+        "We offer a wide range of courses in various fields",
+        "Our curriculum is designed to meet the needs of the industry"
+      ]
+    },
+    {
+      "tag": "student_affairs",
+      "patterns": [
+        "How can I contact student affairs?",
+        "Student support",
+        "Student services"
+      ],
+      "responses": [
+        "You can contact student affairs at [email protected]",
+        "Our student affairs team is here to help you"
+      ]
+    },
+    {
+      "tag": "fees",
+      "patterns": [
+        "What is the fee structure?",
+        "How much are the fees?",
+        "Tuition fees"
+      ],
+      "responses": [
+        "You can find the fee structure on our website",
+        "The fees vary depending on the course you choose"
+      ]
+    },
+    {
+      "tag": "timings",
+      "patterns": [
+        "What are the college timings?",
+        "When does the college open?",
+        "College hours"
+      ],
+      "responses": [
+        "The college timings are from 9 am to 5 pm",
+        "The college opens at 9 am and closes at 5 pm"
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "How can I contact you?",
+        "Contact information",
+        "Phone number"
+      ],
+      "responses": [
+        "You can contact us at [email protected]",
+        "Our phone number is 123-456-7890"
+      ]
+    }
+  ]
+}

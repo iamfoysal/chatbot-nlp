@@ -1,0 +1,33 @@
+# env
+env/
+node_modules/
+nltk/
+nltk
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyz
+*.pywz
+*.pyz
+
+# logs
+logs/
+*.log
+*.log.*
+*.log-*
+*.log_*
+*.log_*
+
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+
+# OS
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
